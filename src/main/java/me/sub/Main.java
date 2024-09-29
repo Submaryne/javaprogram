@@ -25,7 +25,7 @@ public class Main {
             }
         };
         final Timer timer = new Timer("Timer");
-        timer.schedule(timerTask, 0, 6);
+        timer.schedule(timerTask, 0, 5);
     }
 
 }
